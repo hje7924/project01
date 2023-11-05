@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+body {
+  background: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nanum Myeongjo", serif;
+}
+header,
+nav,
+section,
+article,
+aside,
+footer {
+  width: 400px;
+  margin: 5px;
+  padding: 5px;
+}
+.main_header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+  width: 1280px;
+  height: 10px;
+  font-size: 30px;
+}
+/*인덱스 페이지 메뉴바*/
+#main_nav {
+  margin: 0 auto;
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+}
+.menu_item {
+  width: 100%;
+  margin: 30px;
+  flex-grow: 1;
+  transition: 0.5s;
+  list-style: none;
+  background-color: rgba(255, 255, 255, 0.356);
+}
+.menu_item:hover {
+  background-color: rgb(255, 255, 255);
+}
+.menu_link {
+  color: black;
+  display: block;
+  padding: 16px;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+}
+/*인덱스 페이지 사진-하이퍼링크들*/
+.main_sec {
+  text-align: center;
+  position: relative;
+  padding-bottom: 60px;
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main_art {
+  display: flex;
+  margin-left: 10;
+  margin-bottom: 130;
+  background-color: rgba(255, 255, 255, 0.356);
+  border-radius: 4px;
+}
+.main_art:hover {
+  transition: 0.5s;
+  background-color: rgb(255, 255, 255);
+}
+/*index페이지에 잇는 사진 속성동글동글*/
+.main_img {
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 5px;
+}
+/*하이퍼링크 글씨*/
+.text {
+  text-decoration: none;
+  color: black;
+}
+
+/*상세페이지 메뉴바*/
+.pagemenu {
+  margin: 0 auto;
+  padding: 0;
+  height: 100px;
+  text-align: center;
+}
+.menu_text {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 16px;
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+  height: 20px;
+}
+.menu_text:hover {
+  color: rgb(230, 188, 188);
+}
+.page_menu {
+  width: 100%;
+  display: flex;
+  opacity: 0.7;
+  position: fixed;
+}
+.page_menuitem {
+  list-style: none;
+  background-color: black;
+  flex-grow: 1;
+  transition: 0.5s;
+}
+.page_menuitem:hover {
+  background-color: rgb(65, 65, 65);
+  transition: 1.2;
+}
+
+/*상세페이지 내용*/
+.page_con {
+  margin: 0 auto;
+  width: 60%;
+  background-color: white;
+}
+.hpage_cont {
+  width: 100%;
+  height: auto;
+}
+.spage_cont {
+  margin: 0 auto;
+  width: 95%;
+}
+form {
+  text-align: center;
+}
